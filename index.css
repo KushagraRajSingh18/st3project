@@ -1,0 +1,195 @@
+/* header */
+
+.container{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    font-family:cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+}
+
+
+/* input tag  */
+
+.newInp{
+    border: none;
+    padding: 11px;
+    color: white;
+    background: none;
+    border-bottom: 2px solid orangered;
+    font-size: 20px;
+    width: 80px;
+}
+
+.newInp:focus{
+    outline: none;
+}
+
+.after{
+    font-family: cursive;
+    color: white;
+    font-size: 26px;
+    color: cornsilk;
+}
+
+.sameSame{
+    font-family: cursive;
+    color: cornsilk;
+    font-size: 26px;
+}
+
+/* main */
+
+
+main span img{
+    position: absolute;
+}
+
+
+body{
+    background-image: url(./images/newest.jpg);
+    background-size: cover;
+}
+
+/* images */
+
+#first img{
+    height: 150px;
+    margin-top: 7vh;
+    margin-left: 20vh;
+}
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  /* .spin {
+    
+  } */
+#first img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+    /* z-index: 1; */
+    /* transition-timing-function: linear; */ */
+}
+
+#second img{
+    height: 150px;
+    margin-top: 28vh;
+    margin-left: 20vw;
+}
+
+#second img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+}
+
+#third img{
+    height: 150px;
+    margin-top: 48vh;
+    margin-left: 30vw;
+    
+}
+
+#third img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+}
+
+#four img{
+    height: 150px;
+    margin-top: 62vh;
+    margin-left: 42vw;
+}
+
+#four img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 170px;
+    transition: 2s; 
+}
+
+#five img{
+    height: 150px;
+    margin-top: 49vh;
+    margin-left: 54vw;
+    
+}
+
+#five img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+}
+
+#six img{
+    height: 150px;
+    margin-top: 15vh;
+    margin-left: 36vw;
+    
+}
+
+#six img:hover{
+    height: 230px;
+    transition: 1s;
+    z-index: 1;
+    transition-timing-function: linear;
+}
+
+#seven img{
+    height: 150px;
+    margin-top: 29vh;
+    margin-left: 65vw;
+}
+
+#seven img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+}
+
+#eight img{
+    height: 150px;
+    margin-top: 7vh;
+    margin-left: 75vw;
+}
+
+#eight img:hover{
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    transition: 2s; 
+}
+
